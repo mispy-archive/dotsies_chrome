@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Dotsies';
+  font-style: normal;
+  font-weight: 400;
+  src: url('chrome-extension://__MSG_@@extension_id__/Dotsies.ttf') format('truetype');
+}
+
+* {font-family: Dotsies !important}
