@@ -1,0 +1,1 @@
+This Chrome extension replaces the fonts in all opened pages with [Dotsies](http://dotsies.org/), an alternative to the latin alphabet optimized for reading. It is easily toggled for learning purposes.

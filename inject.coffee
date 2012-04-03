@@ -2,6 +2,7 @@ link = document.createElement('link')
 link.href = chrome.extension.getURL('dotsies.css')
 link.type = 'text/css'
 link.rel = 'stylesheet'
+
 update = (enabled) ->
   if enabled
     document.documentElement.insertBefore(link)
