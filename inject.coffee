@@ -5,7 +5,7 @@ link.rel = 'stylesheet'
 
 update = (enabled) ->
   if enabled
-    document.documentElement.insertBefore(link)
+    document.documentElement.insertBefore(link, null)
   else if link.parentNode
     link.parentNode.removeChild(link)
 

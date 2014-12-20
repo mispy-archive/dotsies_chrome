@@ -1,8 +1,11 @@
 {
   "description": "Converts all pages to use the Dotsies font.",
   "name": "Dotsies",
-  "version": "1.0",
-  "background_page": "background.html",
+  "manifest_version": 2,
+  "version": "1.0.1",
+  "background": {
+    "scripts": ["main.js"]
+  },
   "icons": {
     "128": "dotsies128.png"
   },
@@ -16,5 +19,8 @@
     "default_icon": "dotsies128.png",
     "default_title": "Toggle Dotsies"
   },
-  "permissions": [ "tabs", "http://*/*", "https://*/*" ]
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+  "web_accessible_resources": [
+    "dotsies.css", "Dotsies.ttf"
+  ]
 }
